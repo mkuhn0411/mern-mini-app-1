@@ -1,0 +1,16 @@
+
+GET http://localhost:3001/todos
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Order movies"
+} 
+
+###
+DELETE http://localhost:3001/todo/delete/641e0c196ab8deaa9cda4c5c
+
+###
+GET http://localhost:3001/todo/complete/641e0beb6ab8deaa9cda4c5a
